@@ -22,4 +22,5 @@ RUN apt-get update \
       tar \
       python \
       python-dev \
+      libgoogle-perftools-dev \
   && apt-get clean
